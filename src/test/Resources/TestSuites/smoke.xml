@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests" parallel="methods" thread-count="9">
+	<test name="smoke test for pet api">
+		<classes>
+			<class name="io.swagger.pet.Test.SmokeTest" />
+		</classes>
+	</test>
+</suite> 

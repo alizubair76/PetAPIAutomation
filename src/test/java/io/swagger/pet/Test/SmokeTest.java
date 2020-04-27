@@ -25,6 +25,7 @@ public class SmokeTest extends BaseTest {
 		String status = "sold";
 
 		Response response = PetAction.findByStatus(status);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -34,6 +35,7 @@ public class SmokeTest extends BaseTest {
 		String existingPetId = PetAction.getRandomPetId().toString();
 
 		Response response = PetAction.findById(existingPetId);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -48,6 +50,7 @@ public class SmokeTest extends BaseTest {
 		System.out.println(body);
 
 		Response response = PetAction.save(body);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 
@@ -66,6 +69,7 @@ public class SmokeTest extends BaseTest {
 		System.out.println(body);
 
 		Response response = PetAction.update(body);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 
@@ -79,6 +83,7 @@ public class SmokeTest extends BaseTest {
 		String existingPetId = PetAction.getRandomPetId().toString();
 
 		Response response = PetAction.uploadImage(existingPetId, testUploadFile);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -91,6 +96,7 @@ public class SmokeTest extends BaseTest {
 		String params = "name=" + newName;
 
 		Response response = PetAction.updateNameAndStatus(existingPetId, params);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -103,6 +109,7 @@ public class SmokeTest extends BaseTest {
 		String params = String.format("status=%s", newStatus);
 
 		Response response = PetAction.updateNameAndStatus(existingPetId, params);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -116,6 +123,7 @@ public class SmokeTest extends BaseTest {
 		String params = String.format("name=%s&status=%s", newName, newStatus);
 
 		Response response = PetAction.updateNameAndStatus(existingPetId, params);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
@@ -125,6 +133,7 @@ public class SmokeTest extends BaseTest {
 		String existingPetId = PetAction.getRandomPetId().toString();
 
 		Response response = PetAction.deleteById(existingPetId);
+		System.out.println(response.asString());
 
 		response.then().statusCode(200);
 	}
