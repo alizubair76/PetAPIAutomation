@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Tests" duration-ms="6869" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:10 IST">
+    <groups>
+    </groups>
+    <test name="smoke test for pet api" duration-ms="6869" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:10 IST">
+      <class name="io.swagger.pet.Test.SmokeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="initialize" is-config="true" duration-ms="409" started-at="2020-04-27T08:48:02 IST" finished-at="2020-04-27T08:48:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setBasePath()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="setBasePath" is-config="true" duration-ms="0" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBasePath -->
+        <test-method status="PASS" signature="testUploadImage()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testUploadImage" duration-ms="6835" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadImage -->
+        <test-method status="PASS" signature="updateName()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="updateName" duration-ms="6696" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateName -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testFindById" duration-ms="6586" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="testUpdatePet()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testUpdatePet" duration-ms="6633" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method status="PASS" signature="updateStatus()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="updateStatus" duration-ms="6567" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStatus -->
+        <test-method status="PASS" signature="updateNameAndStatus()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="updateNameAndStatus" duration-ms="6638" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNameAndStatus -->
+        <test-method status="PASS" signature="testAddNewPet()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testAddNewPet" duration-ms="3879" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewPet -->
+        <test-method status="PASS" signature="testFindByStatus()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testFindByStatus" duration-ms="4086" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByStatus -->
+        <test-method status="PASS" signature="testDeleteById()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="testDeleteById" duration-ms="6705" started-at="2020-04-27T08:48:03 IST" finished-at="2020-04-27T08:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteById -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.pet.Test.SmokeTest@68bbe345]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-27T08:48:10 IST" finished-at="2020-04-27T08:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- io.swagger.pet.Test.SmokeTest -->
+    </test> <!-- smoke test for pet api -->
+  </suite> <!-- Smoke Tests -->
+</testng-results>
